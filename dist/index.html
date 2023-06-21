@@ -18,10 +18,10 @@
             </div>
             <nav>
                 <ul>
-                    <li class="nav-item pr-3 pb-0">
+                    <li class="nav-item pr-3 pb-0 text-neutral-md hover:text-neutral-dk">
                       <a class="nav-link" href="...">Work</a>
                     </li>
-                    <li class="nav-item pl-3 pb-0">
+                    <li class="nav-item pl-3 pb-0 text-neutral-md hover:text-neutral-dk">
                       <a class="nav-link" href="...">About</a>
                     </li>
                   </ul>
@@ -29,7 +29,7 @@
         </section>
         <section id="hp-hero">
             <img id="logo" src="/assets/logo.png" alt="Main logo">
-            <p id="subtitle" class="text-center">Product designer based in France</p>
+            <p id="subtitle" class="text-center text-neutral-md">Product designer based in France</p>
             <div id="social-media-logos" class="p-2">
                 <img id="logo-twitter" src="/assets/twitter.png" alt="Twitter logo">
                 <img id="logo-dribbble" src="/assets/dribbble.png" alt="Dribbble logo">
@@ -38,18 +38,37 @@
         </section>
     </header>
     <main>
-        <section id="hp-grid">
-            <div class="grid grid-rows-2 grid-flow-col gap-4">
-                <div class="row-span-3 bg-black">01</div>
-                <div class="bg-red-500">02</div>
-                <div class="bg-pink-200">03</div>
+        <section id="hp-grid" class="p-8">
+            <div class="grid grid-rows-2 grid-flow-col gap-4 place-content-center">
+                <div class="max-w-xs">
+                    <img id="cover-project-1" class="w-full pb-2" src="/assets/Reinsurance.png" alt="Cover Project 1">
+                    <p class="font-bold text-neutral-dk">Project #1</p>
+                    <p class="text-neutral-md text-xs">Creation date</p>
+                </div>
+                <div class="max-w-xs">
+                    <img id="cover-project-2" class="w-full pb-2" src="/assets/Reinsurance.png" alt="Cover Project 2">
+                    <p class="font-bold text-neutral-dk">Project #2</p>
+                    <p class="text-neutral-md text-xs">Creation date</p>
+                </div>
+                <div class="max-w-xs">
+                    <img id="cover-project-3" class="w-full pb-2" src="/assets/Reinsurance.png" alt="Cover Project 3">
+                    <p class="font-bold text-neutral-dk">Project #3</p>
+                    <p class="text-neutral-md text-xs">Creation date</p>
+                </div>
               </div>
         </section>
         
     </main>
-    <footer>
-        <div class="copyright">(c) Text. 2023</div>
-        <div>Social media</div>
+    <footer class="flex bg-white w-full p-4 flex items-center justify-between">
+        <div>
+            <img id="logo" src="/assets/logo.png" alt="Main logo">
+            <p>Text 2023</p>
+        </div>
+        <div id="social-media-footer" class="flex p-2 content-end">
+            <img id="logo-twitter" src="/assets/twitter.png" alt="Twitter logo" class="w-4">
+            <img id="logo-dribbble" src="/assets/dribbble.png" alt="Dribbble logo">
+            <img id="logo-github" src="/assets/github.png" alt="GitHub logo">
+        </div>
     </footer>
     
 </body>
