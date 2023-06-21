@@ -1,0 +1,59 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(#FFFFFF,#F4F6FF);
+}
+
+#main-nav {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+}
+
+#main-nav div {
+    display: flex;
+}
+
+#main-nav li {
+    list-style-type: none;
+}
+
+#logo {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p #subtitle {
+    text-align: center;
+}
+
+#social-media-logos {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#social-media-logos img {
+    width: 12%;
+    padding: 0px 4px;
+}
+
+#hp-grid {
+    padding-top: 56px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    width: 20rem;
+    min-width: 16rem;
+}
+
+.card-title {
+    justify-content: left;
+}
