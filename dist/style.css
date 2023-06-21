@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(#FFFFFF,#F4F6FF);
+    max-width: 400px;
 }
 
 #main-nav {
@@ -41,7 +42,6 @@ nav ul {
     padding: 0px 4px;
 }
 
-#social-media-footer {
-    width: 20%;
-    justify-content: center;
+#hp-grid {
+   
 }
