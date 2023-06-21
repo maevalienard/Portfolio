@@ -6,19 +6,22 @@
     <title>Maeva Lienard - Portfolio</title>
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <section id="main-nav">
+        <section id="main-nav" class="bg-transparent w-full p-4 flex items-center justify-between">
             <div> 
-                <a href="/code/index.html">Maeva Lienard - Portfolio</a>
+                <a href="/code/index.html">Portfolio</a>
             </div>
             <nav>
                 <ul>
-                    <li class="nav-item">
+                    <li class="nav-item pr-3 pb-0">
                       <a class="nav-link" href="...">Work</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item pl-3 pb-0">
                       <a class="nav-link" href="...">About</a>
                     </li>
                   </ul>
@@ -26,8 +29,8 @@
         </section>
         <section id="hp-hero">
             <img id="logo" src="/assets/logo.png" alt="Main logo">
-            <p id="subtitle">Product designer based in France</p>
-            <div id="social-media-logos">
+            <p id="subtitle" class="text-center">Product designer based in France</p>
+            <div id="social-media-logos" class="p-2">
                 <img id="logo-twitter" src="/assets/twitter.png" alt="Twitter logo">
                 <img id="logo-dribbble" src="/assets/dribbble.png" alt="Dribbble logo">
                 <img id="logo-github" src="/assets/github.png" alt="GitHub logo">
@@ -36,16 +39,16 @@
     </header>
     <main>
         <section id="hp-grid">
-          <div class="grid grid-rows-3 grid-flow-col gap-4 gap-">
-            <div class="row-span-3 ...">01</div>
-            <div class="col-span-2 ...">02</div>
-            <div class="row-span-2 col-span-2 ...">03</div>
-          </div>
+            <div class="grid grid-rows-2 grid-flow-col gap-4">
+                <div class="row-span-3 bg-black">01</div>
+                <div class="bg-red-500">02</div>
+                <div class="bg-pink-200">03</div>
+              </div>
         </section>
         
     </main>
     <footer>
-        <div class="copyright">(c) All rights reserved. 2023</div>
+        <div class="copyright">(c) Text. 2023</div>
         <div>Social media</div>
     </footer>
     
