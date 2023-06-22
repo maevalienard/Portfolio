@@ -1,6 +1,5 @@
 body {
     background: linear-gradient(#FFFFFF,#F4F6FF);
-    max-width: 400px;
 }
 
 #main-nav {
@@ -37,11 +36,17 @@ nav ul {
     justify-content: center;
 }
 
+footer {
+    height: 80px;
+}
+
 #social-media-logos img {
-    width: 12%;
+    width: 32px;
     padding: 0px 4px;
 }
 
-#hp-grid {
-   
+
+#social-media-footer img {
+    width: 32px;
+    padding: 0px 4px;
 }
