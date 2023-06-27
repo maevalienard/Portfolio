@@ -2,25 +2,6 @@ body {
     background: linear-gradient(#FFFFFF,#F4F6FF);
 }
 
-#main-nav {
-    display: flex;
-    align-items: center;
-    align-content: space-around;
-    justify-content: space-between;
-}
-
-#main-nav div {
-    display: flex;
-}
-
-nav ul {
-    display: flex;
-}
-
-#main-nav li {
-    list-style-type: none;
-}
-
 #logo {
     display: block;
     width: 20%;
