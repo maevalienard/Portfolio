@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(#FFFFFF,#F4F6FF);
+}
+
+#logo {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social-media-logos {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 80px;
+}
+
+#social-media-logos img {
+    width: 28px;
+    padding: 0px 4px;
+}
+
+
+#social-media-footer img {
+    width: 32px;
+    padding: 0px 4px;
+}
