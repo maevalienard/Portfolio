@@ -651,12 +651,12 @@ video {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
-}
-
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .border-solid {
@@ -751,6 +751,10 @@ video {
   padding-left: 1rem;
 }
 
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
 .pr-28 {
   padding-right: 7rem;
 }
@@ -789,10 +793,6 @@ video {
 
 .pt-9 {
   padding-top: 2.25rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
 }
 
 .text-center {
