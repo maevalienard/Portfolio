@@ -45,3 +45,14 @@ footer {
     width: 80%;
 }
 
+#prika-logo {
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#prika-header-cover {
+    margin-left: auto;
+    margin-right: auto;
+}
