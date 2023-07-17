@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maeva Lienard - About</title>
+    <title>Maeva Lienard - Strapi case study</title>
     <link rel="stylesheet" href="/dist/output.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
         <header>
             <section id="main-nav" class="bg-transparent w-full py-10 px-20 flex items-center justify-between">
                 <div> 
@@ -28,13 +27,105 @@
                     </ul>
                 </nav>
             </section>
+        </header>
+    <main>
+        <div class="container lg mx-auto">
             <section>
                 <img id="strapi-logo" src="/assets/Strapi-case-study/Strapi-logo.png" alt="Strapi logo" class="pt-4">
                 <p id="strapi-subtitle" class="text-center text-neutral-md pt-2">Strapi is the leading Open-Source Headless CMS. 100% JavaScript and fully customizable.</p>
-                <img id="strapi-header-cover" src="/assets/Strapi-case-study/strapi-header.png" alt="Strapi interface" class="pt-4">
+                <img id="strapi-header-cover" src="/assets/Strapi-case-study/strapi-header.png" alt="Strapi interface" class="pt-4 pb-10">
             </section>
-        </header>
+            <section>
+                <div class="text-center sm:w-[50rem] mx-auto">
+                    <h2 class="font-bold text-neutral-dk text-2xl pb-4">Quick introduction</h2>
+                    <p class="text-neutral-md">
+                        I joined <a href="https://strapi.io/" class="content-links">Strapi</a> in 2019 as the <b>sole designer</b>, in close collaboration with the <b>CPO</b>. Along the years, the team grew up to 5 designers at the same time all working on different features and projects (branding & products).<br>
+                        <br>
+                        I have worked with <b>all the different Strapi squads</b>, alongside many others roles (product managers, developers, QA engineers, ...) on <b>features, strategy and automating the Design System</b>.<br>
+                        <br>
+                        As an <b><a href="https://github.com/strapi" class="content-links">Open-Source platform</a></b>, Strapi's <b>community</b> plays a significant role in creating new features.</p>
+                </div>
+            </section>
+
+            <div id="media-lib-section" class="grid grid-cols-1 sm:grid-cols-2 gap-16 pt-24 justify-items-center">
+                <div>
+                    <h2 class="font-bold text-neutral-dk text-2xl pb-5">Media Library</h2>
+                    <p class="text-neutral-md">
+                        When I joined the company, there was no asset management system.<br>
+                        <br>
+                        The objective was to <b>enable users to reuse and store their assets</b>, making it more efficient to select them in the content editing section.<br>
+                        <br>
+                        We began with a <b>basic display of assets</b> and, through an <b>iterative process</b>, progressively added folders and list views.
+                    </p>
+                </div>
+                <div>
+                    <img id="media-lib" src="/assets/Strapi-case-study/media-lib.png" alt="Media Library interface" class="object-cover drop-shadow-3xl">
+                </div>
+            </div>
+
+            <div id="RBAC-section" class="grid grid-cols-1 sm:grid-cols-2 gap-16 pt-24 justify-items-center">
+                <div>
+                    <img id="rbac-img" src="/assets/Strapi-case-study/rbac.png" alt="Role Based Access Control interface" class="object-cover drop-shadow-3xl">
+                </div>
+                <div>
+                    <h2 class="font-bold text-neutral-dk text-2xl pb-5">Role Based Access Control (RBAC)</h2>
+                    <p class="text-neutral-md pt-2">Every good product requires a <b>reliable permissions system</b>, especially when dealing with content and private data.<br>
+                        <br>
+                        We needed a powerful and scalable system that could meet <b>most user needs</b>, while being easy to understand.<br>
+                        After many attempts, we decided on a <b>visually efficient checkboxes table</b> that has proven across time to be an <b>effective solution for users</b>.<br>
+                        <br>
+                        The feature is still one of the trickiest of Strapi considering the <b>logical complexity</b> behind. It was a <b>paid feature</b> when we launched it, and is now free for everyone.</p>
+                </div>
+            </div>  
+
+            <div id="rw-section" class="grid grid-cols-1 sm:grid-cols-2 gap-16 pt-24 justify-items-center">
+                <div>
+                    <h2 class="font-bold text-neutral-dk text-2xl pb-5">Review workflows</h2>
+                    <p class="text-neutral-md"> The content management section is <b>one of the most crucial screens</b> in Strapi.<br>
+                        <br>
+                        It has evolved significantly over the years, providing <b>more flexibility and features</b> to content editors.<br>
+                        <br>
+                        While enabling the ability to review content may seem easy, it has been challenging to add complexity with new features while remaining crystal clear on the possibilities offered. This is also a <b>paid feature</b> for Enterprise version.<br>
+                        <br>
+                        On the technical side, challenges include anticipating upcoming features and their potential impact on each section. As Strapi is a <b>self-hosted product</b>, a breaking change could cause many issues for users.
+                    </p>
+                </div>
+                <div>
+                    <img id="rw-img" src="/assets/Strapi-case-study/review-workflows.png" alt="Media Library interface" class="object-cover drop-shadow-3xl">
+                </div>
+            </div>
+
+            <section id="strapi-ui-kit">
+                <img id="strapi-ui-kit-img" src="/assets/Strapi-case-study/strapi-ui-kit.png" alt="Strapi UI Kit interface" class="pt-24 pb-10 drop-shadow-3xl">
+                <div class="text-center sm:w-[50rem] mx-auto">
+                    <h2 class="font-bold text-neutral-dk text-2xl pb-4">Strapi • Design System</h2>
+                    <p class="text-neutral-md pb-24">
+                        Strapi was preparing to launch its <b>version 4</b> and wanted a new user interface.<br>
+                        <br>
+                        The Design System was created with 2 objectives in mind: to enable <b>faster internal work</b> and to <b>allow plugin developers to easily create consistent integrations for Strapi</b>.<br>
+                        <br>
+                        With the help of the Brand designer who established new UI tokens, the developers and I worked on <b>creating and automating each component</b> for Strapi. We also created rituals for the Design System to ensure consistency between Storybook and the Figma UI Kit.<br>
+                        <br>
+                        The <a href="https://www.figma.com/community/file/1050701975985000987" class="content-links">Figma UI Kit</a> currently has over <b>500 likes and 8.5k duplicates</b>.
+                    </p>
+                </div>
+            </section>
+            
+
+         </div>   
      </main>
+
+     <footer class="flex w-full bg-white pl-4 pr-4 justify-between">
+        <div class="flex justify-between items-center place-items-start">
+            <img id="logo-footer" src="/assets/logo.png" alt="Main logo" class="block max-w-xs scale-50">
+            <p class="text-neutral-md">2023</p>
+        </div>
+        <div id="social-media-footer" class="flex content-end items-center justify-between">
+            <img id="logo-twitter" src="/assets/twitter.png" alt="Twitter logo">
+            <img id="logo-dribbble" src="/assets/dribbble.png" alt="Dribbble logo">
+            <img id="logo-github" src="/assets/github.png" alt="GitHub logo">
+        </div>
+    </footer>
     
 </body>
 </html>
