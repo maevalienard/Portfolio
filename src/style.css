@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#FFFFFF,#F4F6FF);
+    background: linear-gradient(#FFFFFF,#FAFCFB);
 }
 
 #logo {
@@ -45,6 +45,12 @@ footer {
     width: 80%;
 }
 
+#strapi-ui-kit-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 #prika-logo {
     display: block;
     width: 10%;
@@ -84,4 +90,12 @@ footer {
 #soltters-header-cover {
     margin-left: auto;
     margin-right: auto;
+}
+
+.content-links {
+    text-decoration: underline;
+}
+
+.content-links:hover {
+    color: #303030;
 }
