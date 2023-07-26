@@ -12,21 +12,34 @@
 </head>
 <body>
         <header>
-            <section id="main-nav" class="bg-transparent w-full py-10 px-20 flex items-center justify-between">
-                <div> 
-                    <a href="/index.html"><img id="logo-nav" src="/assets/logo.png" alt="Main logo" class="max-w-[30%]"></a>
-                </div>
-                <nav>
-                    <ul class="flex">
-                        <li class="nav-item pr-3 pb-0 text-neutral-md hover:text-neutral-dk list-none">
-                        <a class="nav-link" href="/index.html">Work</a>
-                        </li>
-                        <li class="nav-item pl-3 pb-0 text-neutral-md hover:text-neutral-dk list-none">
-                        <a class="nav-link" href="/about.html">About</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
+                
+<nav class="bg-transparent w-full py-10 px-20 flex items-center justify-between">
+    <div class="max-w-screen-xl flex items-center justify-between">
+
+      <a href="/index.html" class="flex items-center">
+          <img src="/assets/logo.png" class="max-w-[30%]" alt="Main Logo" />
+      </a>
+
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-neutral-md rounded-lg md:hidden hover:text-neutral-dk" aria-controls="navbar-default" aria-expanded="false">
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+
+      <div class="hidden w-full sm:block" id="navbar-default">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:bg-white">
+          <li>
+            <a href="/index.html" class="block py-2 pl-3 pr-4 text-neutral-md hover:text-neutral-dk bg-blue-700 md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">Work</a>
+          </li>
+          <li>
+            <a href="/about.html" class="block py-2 pl-3 pr-4 text-neutral-md hover:text-neutral-dk hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  
         </header>
     <main>
         <div class="container lg mx-auto">
