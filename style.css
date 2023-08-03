@@ -17,20 +17,15 @@ body {
     justify-content: center;
 }
 
-footer {
-    height: 80px;
-}
-
 #social-media-logos img {
     width: 28px;
     padding: 0px 4px;
 }
 
-
-#social-media-footer img {
+/* #social-media-footer img {
     width: 32px;
     padding: 0px 4px;
-}
+} */
 
 #strapi-logo {
     display: block;
