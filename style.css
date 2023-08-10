@@ -2,26 +2,6 @@ body {
     background: linear-gradient(#FFFFFF,#FAFCFB);
 }
 
-#logo {
-    display: block;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#social-media-logos {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-}
-
-#social-media-logos img {
-    width: 28px;
-    padding: 0px 4px;
-}
-
 .content-links {
     text-decoration: underline;
 }

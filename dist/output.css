@@ -1999,14 +1999,6 @@ video {
   padding-bottom: 3.5rem;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
-.pb-24 {
-  padding-bottom: 6rem;
-}
-
 .pb-3 {
   padding-bottom: 0.75rem;
 }
@@ -2065,6 +2057,10 @@ video {
 
 .pt-24 {
   padding-top: 6rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .pt-4 {
@@ -2711,6 +2707,14 @@ video {
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:pb-20 {
+    padding-bottom: 5rem;
   }
 
   .md\:pb-24 {
